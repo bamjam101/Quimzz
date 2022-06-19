@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/que.js"></script>
+    <script defer src="js/shuffler.js"></script>
+    <title>Quimzz</title>
+</head>
+
+<body>
+    <section>
+        <h1>Dive Into Knowledge.</h1>
+        <img src="img/brain.png" class="theme">
+        <a onclick="curtain()">Begin</a>
+    </section>
+    <header>
+        <nav>
+            <img onclick="menu()" src="img/menu.png" alt="Menu">
+            <h2>Quimzz</h2>
+            <div class="menuContent">
+                <a href="#">LEARN</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <img id="bubble">
+
+        <div class="que">
+            <p class="question"></p>
+        </div>
+        <div class="options">
+        </div>
+        <div class="btn-wrap">
+            <button type="button" onclick="next()">Next</button>
+        </div>
+    </main>
+
+    <footer>
+        copyright &copy; BamJamLoL
+    </footer>
+</body>
+
+</html>
